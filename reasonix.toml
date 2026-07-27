@@ -1,2 +1,2 @@
 [permissions]
-allow = ["Bash(cd \"D:/git-1\" && git remote add origin https://github.com/hk4319/git-1.git && git push -u origin master)"]
+allow = ["Bash(cd \"D:/git-1\" && git remote add origin https://github.com/hk4319/git-1.git && git push -u origin master)", "Bash(tasklist /FI \"IMAGENAME eq git.exe\" 2>&1 || ps -W | grep git 2>/dev/null || echo \"无法检查进程\")", "Bash(taskkill /F /PID 4205656 2>&1; taskkill /F /PID 4203060 2>&1)", "Bash(taskkill.exe //F //PID 4205656 2>&1; taskkill.exe //F //PID 4203060 2>&1)"]
