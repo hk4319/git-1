@@ -1,0 +1,2 @@
+[permissions]
+allow = ["Bash(cd \"D:/git-1\" && git remote add origin https://github.com/hk4319/git-1.git && git push -u origin master)"]
